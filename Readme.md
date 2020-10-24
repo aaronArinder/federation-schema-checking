@@ -1,5 +1,5 @@
 ## Home-rolled apollo check
-Apollo is awesome! But, we pay too much for what amounts to just apollo-checks. This repo is a PoC for home-rolling our own apollo-checks.
+Apollo is awesome! But, we pay too much for what amounts to just apollo-checks. This repo is a PoC for home-rolling our own apollo-checks. It covers _one_ use case: removing a field. It doesn't check changes field value changes (i.e., changes to the type of the value rather than just straight removal of the value). 
 
 ### Up and running
 
