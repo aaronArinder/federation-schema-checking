@@ -2,11 +2,6 @@ const { ApolloServer }  = require("apollo-server");
 const { ApolloGateway } = require("@apollo/gateway");
 const { operationCollector } = require("./plugins/schema-checker");
 
-/**
- * Keep cache in mem
- */
-require('./utils/cache');
-
 const gateway = new ApolloGateway({
   // This entire `serviceList` is optional when running in managed federation
   // mode, using Apollo Graph Manager as the source of truth.  In production,
