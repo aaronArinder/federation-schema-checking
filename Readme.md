@@ -11,7 +11,7 @@ To run the federated services and gateway, do the following:
 
 ### Demonstrating a breaking change
 #### Querying the federated services
-To demonstrate a breaking change, first you must make a query. Go to localhost:4000 and query the following:
+To demonstrate a breaking change, first you must make a query. Go to `localhost:4000` and query the following:
 
 ```
 query {
